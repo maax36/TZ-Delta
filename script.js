@@ -51,7 +51,7 @@ data.forEach(({ indicator, currentDay, Yesterday, thisDay }, index) => {
             }
 
             cell.append(sumSpan);
-            cell.append(percentSpan);
+            if(index === 2) { cell.append(percentSpan); }
         } else {
             cell.textContent = value;
         }
