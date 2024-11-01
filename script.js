@@ -90,7 +90,7 @@ document.addEventListener("click", (ev) => {
             text: data[dataID].indicator
         },
         xAxis: {
-            categories: ['currentDay', 'Yesterday', 'thisDay']
+            categories: ['Текущий день', 'Вчера', 'Этот день недели']
         },
         yAxis: {
             title: {
