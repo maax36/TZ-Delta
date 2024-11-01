@@ -68,6 +68,13 @@ tbody tr {
 
 td span:nth-child(2) {
     margin-left: 25px;
-    color: green;
     font-weight: bold;
+}
+
+.percentP {
+    color: green;
+}
+
+.percentN {
+    color: red;
 }

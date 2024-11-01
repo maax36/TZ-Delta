@@ -44,8 +44,10 @@ data.forEach(({ indicator, currentDay, Yesterday, thisDay }, index) => {
 
             if (value.percent > 0) {
                 cell.classList.add('positive');
+                percentSpan.classList.add('percentP');
             } else if (value.percent < 0) {
                 cell.classList.add('negative');
+                percentSpan.classList.add('percentN');
             }
 
             cell.append(sumSpan);
